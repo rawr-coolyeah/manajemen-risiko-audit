@@ -1,0 +1,152 @@
+[
+  {
+    "id": "S01",
+    "title": "1. Kontrol-Audit-Sistem-Informasi-Menjaga-Keamanan-dan-Integritas-Data",
+    "pages": 10,
+    "note": "Audit SI, CIA, jenis audit dan ITGC."
+  },
+  {
+    "id": "S02",
+    "title": "2. Fungsi-Audit-Sistem-Informasi-dalam-Manajemen-Risiko-dan-Audit-Sistem-Informasi",
+    "pages": 10,
+    "note": "Tujuan audit, area pemeriksaan dan peran manajemen risiko."
+  },
+  {
+    "id": "S03",
+    "title": "3. Risiko-Sistem-Informasi-dalam-Audit",
+    "pages": 10,
+    "note": "Risiko teknis, operasional, kepatuhan dan strategis."
+  },
+  {
+    "id": "S04",
+    "title": "4. Standar-dan-Panduan-Untuk-Audit-Sistem-Informasi",
+    "pages": 10,
+    "note": "Piagam, independensi, ITAF/PASI dan pemilihan acuan."
+  },
+  {
+    "id": "S05",
+    "title": "5. Konsep-Pengendalian-Internal",
+    "pages": 10,
+    "note": "Lima unsur pengendalian internal/SPIP."
+  },
+  {
+    "id": "S06",
+    "title": "6. Manajemen-Risiko-dan-Sistem-Informasi",
+    "pages": 10,
+    "note": "Identifikasi, analisis, evaluasi dan penanganan risiko."
+  },
+  {
+    "id": "S07",
+    "title": "7. Proses-Rencana-Audit-Sistem-Informasi",
+    "pages": 10,
+    "note": "Perencanaan, lapangan, pelaporan dan tindak lanjut."
+  },
+  {
+    "id": "S08",
+    "title": "8. Manajemen-Audit-Sistem-Informasi-dan-Pelaporannya",
+    "pages": 10,
+    "note": "Komponen dan prinsip laporan serta peran manajemen."
+  },
+  {
+    "id": "S09",
+    "title": "INISIASI 8- Laporan Audit",
+    "pages": 14,
+    "note": "Wella dan Johan Setiawan (2015), penelitian ERP Erajaya dengan COBIT 4.1."
+  },
+  {
+    "id": "S10",
+    "title": "Pengayaan Sesi 3",
+    "pages": 8,
+    "note": "Harris, Tarigan dan Mawlan, penelitian risiko PUSRI; ketidaksesuaian hitung ditandai."
+  },
+  {
+    "id": "S11",
+    "title": "Pert. 8",
+    "pages": 8,
+    "note": "Materi tambahan kualitas data dan data warehouse."
+  },
+  {
+    "id": "S12",
+    "title": "Teknologi Audit SIstem Informasi",
+    "pages": 9,
+    "note": "Isworo Nugroho (2009), pendekatan audit dan teknik berbantuan komputer."
+  },
+  {
+    "id": "S13",
+    "title": "Tugas 1: materialitas, risiko audit dan strategi",
+    "pages": 4,
+    "note": "Bahan latihan: materialitas, risiko audit, bukti, integrasi strategi."
+  },
+  {
+    "id": "S14",
+    "title": "Tugas 2: kerangka kerja dan ORCA",
+    "pages": 6,
+    "note": "Bahan latihan: sepuluh acuan dan ORCA."
+  },
+  {
+    "id": "S15",
+    "title": "Tugas 3: kendala dan opini audit (versi 1)",
+    "pages": 3,
+    "note": "Bahan latihan: kendala audit dan opini laporan keuangan."
+  },
+  {
+    "id": "S16",
+    "title": "Tugas 3: kendala dan opini audit (versi 2)",
+    "pages": 3,
+    "note": "Teks hasil ekstraksi identik dengan S15, tidak dihitung sebagai topik baru."
+  },
+  {
+    "id": "S17",
+    "title": "Table 1.jpeg",
+    "pages": null,
+    "note": "Tabel ransomware, dampak dan pengendalian; dibaca secara visual."
+  },
+  {
+    "id": "E01",
+    "title": "ISO 31000",
+    "url": "https://www.iso.org/standard/31000",
+    "note": "Prinsip dan proses manajemen risiko."
+  },
+  {
+    "id": "E02",
+    "title": "NIST SP 800-30 Rev. 1",
+    "url": "https://csrc.nist.gov/pubs/sp/800/30/r1/final",
+    "note": "Panduan penilaian risiko, bukan metodologi audit menyeluruh."
+  },
+  {
+    "id": "E03",
+    "title": "ISACA ITAF, daftar standar edisi 4",
+    "url": "https://www.isaca.org/resources/isaca-journal/issues/2020/volume-6/standards-guidelines-tools-and-techniques",
+    "note": "Kategori dan penomoran standar perlu dibaca sesuai edisi."
+  },
+  {
+    "id": "E04",
+    "title": "NIST: enam fungsi CSF 2.0",
+    "url": "https://csrc.nist.gov/glossary/term/csf_function",
+    "note": "Govern, Identify, Protect, Detect, Respond dan Recover."
+  },
+  {
+    "id": "E05",
+    "title": "AUASB ASA 320",
+    "url": "https://standards.auasb.gov.au/asa-320-apr-2022",
+    "note": "Materialitas dan perencanaan audit; selaras dengan ISA 320."
+  },
+  {
+    "id": "E06",
+    "title": "AUASB ASA 705",
+    "url": "https://standards.auasb.gov.au/asa-705-jun-2020",
+    "note": "Opini laporan keuangan yang dimodifikasi; selaras dengan ISA 705."
+  },
+  {
+    "id": "E07",
+    "title": "NIST SP 800-63B-4",
+    "url": "https://pages.nist.gov/800-63-4/sp800-63b.html",
+    "note": "Klarifikasi aturan password pada artikel historis; lihat bagian 3.1.1.2."
+  },
+  {
+    "id": "E08",
+    "title": "VEON Annual Report 2022",
+    "url": "https://www.veon.com/fileadmin/user_upload/investors/annual-report/full-iar.pdf",
+    "note": "Contoh penggunaan ORCA dengan A = Assurance, bukan definisi tunggal istilah."
+  }
+]

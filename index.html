@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Rangkuman kuliah Manajemen Risiko dan Audit Sistem Informasi. Materi lengkap, studi kasus, latihan, dan referensi.">
+<meta name="theme-color" content="#236346"><title>Rangkuman Manajemen Risiko dan Audit SI | Catatan Risiko &amp; Audit</title>
+<link rel="stylesheet" href="assets/belajar.css"><script src="assets/belajar.js" defer></script></head>
+<body><a class="skip" href="#isi">Lewati ke isi</a>
+<header class="site-header"><a class="home-link" href="index.html">Catatan Risiko &amp; Audit</a><div class="header-actions"><nav class="top-nav" aria-label="Navigasi utama"><a href="index.html" aria-current="page">Rangkuman</a><a href="latihan.html">Latihan</a><a href="reference/sumber.html">Sumber</a></nav><button type="button" data-theme-toggle hidden>Mode gelap</button></div></header>
+<main id="isi" class="page"><div class="intro"><h1>Manajemen Risiko dan Audit Sistem Informasi</h1><p class="lead">Rangkuman untuk memahami hubungan antara risiko, pengendalian, bukti, dan keputusan audit.</p><p class="meta">15 topik · 16 PDF, 135 halaman, dan 1 gambar · Bahan kuliah semester 7</p></div><div class="reading-layout"><details class="contents" open><summary>Daftar topik</summary><nav aria-label="Daftar topik"><ol><li><a href="#topik-01">Dasar audit sistem informasi</a></li><li><a href="#topik-02">Risiko SI dan manajemen risiko</a></li><li><a href="#topik-03">Pengendalian internal</a></li><li><a href="#topik-04">Standar, kerangka kerja, dan etika</a></li><li><a href="#topik-05">Materialitas, risiko audit, dan bukti</a></li><li><a href="#topik-06">Proses dan rencana audit</a></li><li><a href="#topik-07">Pendekatan audit dan TABK</a></li><li><a href="#topik-08">COBIT 4.1 dan tingkat kematangan</a></li><li><a href="#topik-09">Studi kasus Erajaya</a></li><li><a href="#topik-10">Studi kasus PUSRI</a></li><li><a href="#topik-11">Laporan audit dan tindak lanjut</a></li><li><a href="#topik-12">Inti tugas 1, 2, dan 3</a></li><li><a href="#topik-13">Empat opini laporan keuangan</a></li><li><a href="#topik-14">Kualitas data dan data warehouse</a></li><li><a href="#topik-15">Catatan pembacaan kritis</a></li></ol></nav></details><div class="reader"><section class="concept"><h2>Pahami alurnya dulu</h2><ol><li>Tujuan organisasi</li><li>Risiko</li><li>Pengendalian</li><li>Pengujian audit</li><li>Laporan</li><li>Tindak lanjut</li></ol><p><strong>Manajemen menangani risiko.</strong> Auditor menguji pengelolaannya berdasarkan bukti. Hasil audit menjadi masukan untuk perbaikan berikutnya.</p></section><p>Baca satu topik, lalu tutup catatan dan jelaskan kembali dengan kata-katamu sendiri. <a href="latihan.html">Kerjakan latihan</a> untuk memeriksa pemahamanmu.</p><p class="screen-only"><button type="button" data-print hidden>Cetak rangkuman / simpan PDF</button></p><div class="search-area" hidden><label for="topic-search">Cari dalam materi</label><div class="search-row"><input id="topic-search" type="search" placeholder="Misalnya: COBIT, bukti, atau ransomware" aria-describedby="search-count"><button type="button" data-clear-search>Hapus</button></div><p id="search-count" class="search-feedback" role="status" aria-live="polite"></p><p id="no-results" class="no-results" hidden>Topik tidak ditemukan. Gunakan kata yang lebih singkat atau hapus pencarian.</p></div><section class="chapter" id="topik-01" data-chapter><h2>Dasar audit sistem informasi</h2><p class="source">Sumber: <a href="reference/sumber.html#S01">S01</a> hlm. 2–6, 9; <a href="reference/sumber.html#S02">S02</a> hlm. 2–5, 9; <a href="reference/sumber.html#S07">S07</a> hlm. 2–3.</p>
+<p>Audit SI adalah proses sistematis mengumpulkan dan mengevaluasi bukti untuk menilai apakah sistem informasi melindungi aset, menjaga integritas data, serta mendukung tujuan organisasi secara efektif dan efisien.</p>
+<p>Empat sasaran yang berulang dalam materi:</p>
+<ul>
+<li>Pengamanan aset: melindungi perangkat keras, perangkat lunak, data, dan sumber daya manusia terkait TI.</li>
+<li>Integritas data: memastikan data lengkap, akurat, konsisten, dan bebas perubahan tanpa izin.</li>
+<li>Efektivitas: sistem memenuhi kebutuhan pengguna dan tujuan bisnis.</li>
+<li>Efisiensi: hasil dicapai dengan penggunaan sumber daya yang tepat.</li>
+</ul>
+<p>Ingat perbedaannya: sistem pendaftaran kuliah efektif jika mahasiswa dapat mendaftar dengan benar; sistem itu efisien jika layanan berjalan dengan waktu dan sumber daya yang wajar. Cepat saja belum membuktikan bahwa hasilnya benar.</p>
+<p>Tiga sasaran keamanan atau CIA:</p>
+<ul>
+<li>Confidentiality / kerahasiaan: hanya pihak berwenang yang dapat mengakses informasi.</li>
+<li>Integrity / integritas: informasi tidak berubah secara tidak sah dan tetap dapat dipercaya.</li>
+<li>Availability / ketersediaan: sistem dan data dapat dipakai saat dibutuhkan.</li>
+</ul>
+<p>Contoh pembeda: nilai mahasiswa bocor menyangkut kerahasiaan; nilai diubah tanpa izin menyangkut integritas; portal tidak bisa diakses saat KRS menyangkut ketersediaan. Satu insiden dapat memengaruhi lebih dari satu unsur.</p>
+<p>Jenis audit pada materi <a href="reference/sumber.html#S01">S01</a>: audit pengembangan, operasi, manajemen, dan teknologi. Area pemeriksaan meliputi fisik/lingkungan, administrasi sistem, aplikasi, jaringan, serta kesinambungan bisnis. Auditor memerlukan kemampuan teknis, audit, dan pemahaman proses bisnis, disertai independensi dan objektivitas.</p></section><section class="chapter" id="topik-02" data-chapter><h2>Risiko SI dan manajemen risiko</h2><p class="source">Sumber: <a href="reference/sumber.html#S03">S03</a> hlm. 2–6, 9; <a href="reference/sumber.html#S06">S06</a> hlm. 2–8; <a href="reference/sumber.html#S17">S17</a>.</p>
+<p>Materi menyoroti risiko teknis, operasional, kepatuhan, dan strategis. Contohnya ransomware, konfigurasi lemah, kesalahan manusia, backup gagal, pelanggaran ketentuan data, serta investasi TI yang tidak selaras dengan kebutuhan bisnis.</p>
+<p>Penjelasan tambahan untuk membaca kasus dengan tepat:</p>
+<ul>
+<li>Aset: sesuatu yang bernilai, misalnya database nilai.</li>
+<li>Ancaman: penyebab potensial insiden, misalnya pelaku yang mengirim phishing.</li>
+<li>Kerentanan: kelemahan yang bisa dimanfaatkan, misalnya sistem belum diperbarui.</li>
+<li>Risiko: kemungkinan kejadian beserta konsekuensinya terhadap tujuan.</li>
+<li>Dampak: akibatnya, misalnya data terkunci dan layanan berhenti.</li>
+</ul>
+<p>Jangan menyebut patch yang belum dipasang sebagai ancaman; itu merupakan kerentanan.</p>
+<p>Alur inti yang disederhanakan dalam materi:</p>
+<ol>
+<li>Identifikasi: tentukan aset, ancaman, kelemahan, dan kejadian berisiko.</li>
+<li>Analisis: nilai kemungkinan dan dampaknya.</li>
+<li>Evaluasi: bandingkan hasil dengan kriteria organisasi dan tentukan prioritas.</li>
+<li>Penanganan: pilih tindakan terhadap risiko.</li>
+</ol>
+<p>Pelengkap dari ISO 31000: proses juga memerlukan konteks/kriteria, komunikasi, pemantauan, peninjauan, dan pencatatan. Empat langkah pada slide bukan keseluruhan proses ISO 31000.</p>
+<p>Pilihan penanganan risiko:</p>
+<ul>
+<li>Menghindari: menghentikan kegiatan yang menimbulkan risiko tertentu.</li>
+<li>Mengurangi / mitigasi: menerapkan kontrol untuk mengurangi kemungkinan atau dampak.</li>
+<li>Berbagi / transfer: mengalokasikan bagian risiko melalui pengaturan kontrak atau asuransi; tanggung jawab organisasi tidak otomatis hilang.</li>
+<li>Menerima: menyetujui risiko berdasarkan kriteria dan kewenangan yang tepat, disertai pemantauan.</li>
+</ul>
+<p>Ilustrasi perhitungan, bukan rumus wajib ISO: skor prioritas = kemungkinan × dampak. Dengan skala latihan 1–5, kemungkinan 4 dan dampak 5 menghasilkan skor 20. Batas rendah/sedang/tinggi harus ditetapkan sesuai konteks, bukan dianggap berlaku universal. Risiko residual adalah risiko yang masih tersisa setelah penanganan.</p>
+<p>Tabel ransomware dari gambar <a href="reference/sumber.html#S17">S17</a>:</p>
+<ul>
+<li>Email phishing membawa ransomware → perangkat terinfeksi/data terkunci → pelatihan dan penyaringan email.</li>
+<li>Sistem belum diperbarui → celah dimanfaatkan → pembaruan dan pemeriksaan kerentanan.</li>
+<li>Tidak ada backup aman → pemulihan sulit → backup otomatis, salinan terisolasi, dan uji pemulihan.</li>
+<li>Hak akses berlebihan → serangan menjangkau lebih banyak sistem → akses sesuai kebutuhan.</li>
+<li>Pemantauan lemah → aktivitas terlambat diketahui → monitoring dan peninjauan log.</li>
+</ul>
+<p>Satu kontrol jarang cukup: filter email tidak menggantikan backup, dan backup tidak mencegah seluruh kebocoran data.</p></section><section class="chapter" id="topik-03" data-chapter><h2>Pengendalian internal</h2><p class="source">Sumber: <a href="reference/sumber.html#S05">S05</a> hlm. 2–9; <a href="reference/sumber.html#S01">S01</a> hlm. 5; <a href="reference/sumber.html#S12">S12</a> hlm. 6; <a href="reference/sumber.html#S09">S09</a> hlm. 8–10.</p>
+<p>Pengendalian internal merupakan pengaturan organisasi, kebijakan, dan prosedur yang membantu menjaga aset, keandalan informasi, efisiensi, serta kepatuhan. Pengendalian memerlukan keterlibatan manajemen dan pelaksana proses, bukan hanya unit audit.</p>
+<p>Lima unsur SPIP dalam materi:</p>
+<ol>
+<li>Lingkungan pengendalian: integritas, budaya, struktur, dan tanggung jawab.</li>
+<li>Penilaian risiko: mengenali dan menganalisis penghambat tujuan.</li>
+<li>Kegiatan/aktivitas pengendalian: kebijakan dan prosedur untuk menangani risiko.</li>
+<li>Informasi dan komunikasi: informasi relevan tersedia dan tersampaikan.</li>
+<li>Pemantauan: menilai apakah sistem pengendalian terus berjalan.</li>
+</ol>
+<p>Contoh sistem akademik: aturan tanggung jawab staf, penilaian risiko manipulasi nilai, otorisasi perubahan nilai, notifikasi/log perubahan, dan peninjauan berkala.</p>
+<p>Pengendalian umum TI / ITGC mendukung lingkungan TI secara luas: keamanan fisik, akses logis, perubahan sistem, backup/pemulihan, dan penanganan insiden. Pengendalian aplikasi terkait transaksi atau aplikasi tertentu: validasi input, pengecekan pemrosesan, dan pengaturan output.</p>
+<p>Artikel Erajaya memperluas area pemeriksaan menjadi general, boundary, input, process, output, database, application communication, dan operating system controls. Ini merupakan pengelompokan yang dipakai artikel, bukan daftar baru unsur SPIP.</p>
+<p>Penjelasan tambahan menurut fungsi kontrol:</p>
+<ul>
+<li>Preventif: bekerja sebelum insiden, contohnya pembatasan hak akses.</li>
+<li>Detektif: menemukan kejadian/penyimpangan, contohnya peninjauan log.</li>
+<li>Korektif/pemulihan: memperbaiki akibat, contohnya pemulihan dari backup.</li>
+</ul>
+<p>Kontrol dapat mendukung beberapa fungsi bergantung cara penerapannya. Adanya dokumen kebijakan belum membuktikan kontrol dijalankan.</p></section><section class="chapter" id="topik-04" data-chapter><h2>Standar, kerangka kerja, dan etika</h2><p class="source">Sumber: <a href="reference/sumber.html#S04">S04</a> hlm. 2–8; <a href="reference/sumber.html#S14">S14</a> hlm. 1–4; klarifikasi eksternal <a href="reference/sumber.html#E02">E02</a>–<a href="reference/sumber.html#E04">E04</a>.</p>
+<p>Piagam audit menetapkan mandat dan wewenang fungsi audit. Surat tugas/penugasan merinci pekerjaan yang dilaksanakan. Auditor harus menjaga independensi, objektivitas, kompetensi, kerahasiaan, serta mengungkap konflik kepentingan sesuai ketentuan penugasannya.</p>
+<p>Pilih acuan berdasarkan pertanyaan audit:</p>
+<ul>
+<li>COBIT: tata kelola/manajemen TI dan keselarasan dengan bisnis. Cakupannya luas; perlu diterjemahkan menjadi pengujian yang sesuai konteks.</li>
+<li>ITIL: pengelolaan layanan TI, seperti insiden, masalah, perubahan, dan tingkat layanan. Penerapan memerlukan adaptasi proses dan kompetensi.</li>
+<li>ISO/IEC 27001: persyaratan sistem manajemen keamanan informasi. Relevan untuk mengevaluasi pengelolaan keamanan, dengan kebutuhan dokumentasi dan sumber daya.</li>
+<li>ISO/IEC 38500: tata kelola TI pada tingkat pimpinan; bersifat tingkat tinggi.</li>
+<li>COSO Internal Control: pengendalian internal organisasi; perlu pelengkap untuk pemeriksaan teknis TI terperinci.</li>
+<li>NIST CSF: pengelolaan risiko keamanan siber; perlu pemetaan ke kontrol/bukti teknis. CSF 2.0 memiliki enam fungsi: Govern, Identify, Protect, Detect, Respond, Recover.</li>
+<li>ITAF / ISACA: praktik profesional audit dan assurance SI, termasuk standar umum, pelaksanaan, dan pelaporan.</li>
+<li>PASI / IASII: pedoman audit SI Indonesia sebagaimana disebut dalam materi; menekankan penugasan formal, profesionalisme, kerahasiaan, dan objektivitas.</li>
+<li>ISO 19011: panduan audit sistem manajemen; tidak menetapkan seluruh kontrol keamanan TI.</li>
+<li>ISO 22301: sistem manajemen keberlangsungan bisnis; fokus pada kesiapan menghadapi gangguan.</li>
+</ul>
+<p>Tambahan sesi 6: ISO 31000 memandu manajemen risiko; NIST SP 800-30 memandu penilaian risiko.</p>
+<p>Pembeda utama: kerangka tata kelola, praktik layanan, persyaratan sistem manajemen, panduan penilaian risiko, dan standar pelaksanaan audit memiliki fungsi berbeda. Semuanya tidak boleh disebut sebagai metodologi audit yang identik. CISA yang disebut bersama ITAF merupakan sertifikasi auditor, bukan nama standar audit.</p></section><section class="chapter" id="topik-05" data-chapter><h2>Materialitas, risiko audit, dan bukti</h2><p class="source">Sumber: <a href="reference/sumber.html#S13">S13</a> hlm. 1–2; <a href="reference/sumber.html#S09">S09</a> hlm. 4–5; klarifikasi <a href="reference/sumber.html#E05">E05</a>.</p>
+<p>Materialitas menyangkut signifikansi penyimpangan yang dapat memengaruhi keputusan pengguna informasi. Penilaian tidak selalu hanya nominal uang; sifat informasi dan konteks juga penting.</p>
+<p>Risiko audit adalah risiko auditor menarik kesimpulan yang tidak tepat. Ini berbeda dari risiko operasional yang dihadapi organisasi, seperti server rusak.</p>
+<p>Bukti audit adalah informasi yang mendasari penilaian auditor. Contohnya kebijakan, daftar akun, log, tiket perubahan, dokumen transaksi, hasil observasi, dan hasil uji.</p>
+<p>Cukup berkaitan dengan kuantitas bukti. Tepat berkaitan dengan kualitas, terutama relevansi dan keandalannya. Banyak jawaban wawancara yang sama belum tentu menggantikan satu hasil uji kontrol yang relevan.</p>
+<p>Hubungan yang perlu dipahami:</p>
+<ul>
+<li>Risiko salah simpulan yang lebih besar menuntut respons audit dan bukti yang lebih meyakinkan.</li>
+<li>Ambang materialitas lebih rendah berarti toleransi kesalahan lebih kecil dan dapat membutuhkan pengujian lebih luas/mendalam.</li>
+<li>Kuantitas bukti saja tidak menutup kelemahan kualitas bukti.</li>
+<li>Bukti perlu dievaluasi bersama, termasuk ketika sumber saling bertentangan.</li>
+</ul>
+<p>Klarifikasi Tugas 1: besarnya dampak suatu kesalahan berbeda dari besarnya ambang materialitas. Jangan menghafal “materialitas lebih tinggi selalu berarti lebih banyak bukti”.</p>
+<p>Contoh: admin menyatakan semua akun mantan pegawai dinonaktifkan. Auditor memeriksa daftar pegawai keluar, mencocokkannya dengan akun aktif, dan memeriksa log/tiket penonaktifan. Jawaban wawancara merupakan titik awal yang perlu didukung bukti lain.</p></section><section class="chapter" id="topik-06" data-chapter><h2>Proses dan rencana audit</h2><p class="source">Sumber: <a href="reference/sumber.html#S07">S07</a> hlm. 4–7; <a href="reference/sumber.html#S08">S08</a> hlm. 4–5; <a href="reference/sumber.html#S09">S09</a> hlm. 4–5.</p>
+<p>Empat tahap besar:</p>
+<ol>
+<li>Perencanaan: pahami bisnis, tentukan tujuan/lingkup/periode, identifikasi risiko, pilih kriteria, susun sumber daya dan jadwal.</li>
+<li>Pemeriksaan lapangan: kumpulkan bukti melalui wawancara, observasi, dokumentasi, dan pengujian; evaluasi penerapan kontrol.</li>
+<li>Pelaporan: hubungkan bukti dengan kriteria, susun temuan, dampak, simpulan, dan rekomendasi.</li>
+<li>Tindak lanjut: pantau pelaksanaan dan uji efektivitas perbaikan.</li>
+</ol>
+<p>Artikel Erajaya merincinya menjadi planning, prepare audit program, gather evidence, form conclusion, deliver audit opinion, dan follow up. Enam langkah tersebut memperinci alur yang sama, bukan bertentangan dengan empat tahap pada slide.</p>
+<p>Rencana audit menjelaskan apa, mengapa, kapan, siapa, dan lingkup pekerjaan. Program audit merinci prosedur yang dilakukan untuk memperoleh bukti. Contoh program: ambil sampel pegawai keluar pada periode audit, cocokkan dengan daftar akun aktif, periksa tanggal penonaktifan, lalu dokumentasikan pengecualian.</p>
+<p>Pengujian pengendalian menilai apakah kontrol dirancang dan dijalankan sebagaimana dimaksud. Pengujian transaksi/substantif memeriksa validitas, kelengkapan, dan keakuratan transaksi/data. Rekonsiliasi atau pengujian keseimbangan membantu menemukan ketidaksesuaian jumlah/catatan. Sampling harus sesuai tujuan dan risiko; hasil sampel tidak otomatis membuktikan semua transaksi benar.</p>
+<p>Prioritas audit berbasis risiko membantu mengalokasikan waktu pada area penting. Fokus risiko tinggi perlu tetap ditautkan ke tujuan, materialitas, dan bukti yang tersedia.</p></section><section class="chapter" id="topik-07" data-chapter><h2>Pendekatan audit dan TABK</h2><p class="source">Sumber: <a href="reference/sumber.html#S12">S12</a> hlm. 2–9; <a href="reference/sumber.html#S09">S09</a> hlm. 2–3, 9.</p>
+<ul>
+<li>Around the computer: telusuri input dan output; proses internal diperlakukan seperti kotak hitam. Cocok bila jejak transaksi cukup. Keterbatasan: kesesuaian input-output tidak membuktikan semua kontrol internal program memadai.</li>
+<li>Through the computer: periksa pemrosesan dan kontrol di dalam sistem. Contoh: uji apakah input di luar batas ditolak.</li>
+<li>With the computer: gunakan komputer/perangkat lunak untuk membantu prosedur audit. Contoh: mencari pembayaran ganda dari data transaksi.</li>
+</ul>
+<p>Through menjelaskan bagian yang diuji; with menjelaskan alat bantu. Keduanya dapat digunakan bersama.</p>
+<p>TABK / CAATs adalah teknik audit berbantuan komputer. Materi menyebut dua bentuk umum: perangkat lunak audit dan data uji. Artikel tahun 2009 menyebut ACL dan perangkat lunak lain sebagai contoh historis, bukan rekomendasi produk terkini.</p>
+<p>Teknik yang dibahas:</p>
+<ol>
+<li>Data simulasi / test data: masukkan transaksi uji dan bandingkan hasil dengan hasil yang diharapkan.</li>
+<li>Integrated test facility: gunakan entitas/transaksi uji yang ditandai pada lingkungan pemrosesan terpadu, dengan pengendalian agar data uji tidak mencemari catatan sebenarnya.</li>
+<li>Simulasi paralel: proses data dengan program/model auditor dan bandingkan hasilnya dengan sistem yang diaudit.</li>
+<li>Embedded audit module: modul mengumpulkan kejadian tertentu untuk pemeriksaan.</li>
+<li>Audit software: membaca, menyaring, mengelompokkan, menghitung, dan melaporkan data.</li>
+<li>Tracing: telusuri langkah/instruksi yang dijalankan.</li>
+<li>Mapping: petakan bagian program yang berjalan/tidak berjalan untuk dianalisis lebih lanjut. Cakupan eksekusi saja tidak membuktikan program bebas kecurangan.</li>
+</ol>
+<p>Lingkungan komputerisasi mengubah bukti dari dokumen fisik menjadi catatan elektronik, dapat mengintegrasikan fungsi, serta membuat kesalahan logika berulang secara sistematis. Sistem daring memungkinkan input dan perubahan data langsung; auditor perlu memahami otorisasi, log, waktu pemeriksaan, dan keterlacakan transaksi.</p>
+<p>TABK perlu kompetensi, akses/data yang tepat, validasi alat, serta pengendalian pelaksanaan oleh auditor. Otomatisasi mempercepat pemeriksaan tetapi tidak menggantikan penilaian auditor. Kesimpulan artikel: pengaruh TI perlu dilihat dari prosedur audit, pengendalian internal, dan teknik pemeriksaannya.</p></section><section class="chapter" id="topik-08" data-chapter><h2>COBIT 4.1 dan tingkat kematangan</h2><p class="source">Sumber: <a href="reference/sumber.html#S09">S09</a> hlm. 6–8, 13–14; <a href="reference/sumber.html#S10">S10</a> hlm. 2, 4–7.</p>
+<p>Materi penelitian memakai COBIT 4.1, dengan empat domain dan 34 proses:</p>
+<ul>
+<li>PO / Plan and Organise: perencanaan dan pengorganisasian, 10 proses.</li>
+<li>AI / Acquire and Implement: memperoleh/mengembangkan serta menerapkan solusi, 7 proses.</li>
+<li>DS / Deliver and Support: penyampaian layanan dan dukungan, 13 proses.</li>
+<li>ME / Monitor and Evaluate: pemantauan dan evaluasi, 4 proses.</li>
+</ul>
+<p>Contoh kode yang membantu: PO9 menilai dan mengelola risiko TI; AI6 mengelola perubahan; DS4 kesinambungan layanan; DS5 keamanan; ME2 pengendalian internal.</p>
+<p>Model kematangan 0–5 dalam artikel:</p>
+<p>0 Non-existent: proses belum ada.</p>
+<p>1 Initial/ad hoc: bersifat reaktif dan tidak terorganisasi.</p>
+<p>2 Repeatable but intuitive: pola mulai berulang, masih bergantung individu.</p>
+<p>3 Defined: proses telah ditetapkan/didokumentasikan.</p>
+<p>4 Managed and measurable: proses dikelola dan diukur.</p>
+<p>5 Optimised: perbaikan berkelanjutan dan integrasi praktik.</p>
+<p>Angka kematangan bukan persentase keamanan dan bukan jaminan semua kontrol efektif.</p>
+<p>Analisis kesenjangan / gap membandingkan kondisi saat ini dengan target sesuai metode yang dipilih. Contoh latihan: target 4, kondisi 2, selisih 2. Selisih itu membantu menyusun prioritas perbaikan; tidak cukup menjadi alasan untuk menaikkan skor tanpa bukti.</p>
+<p>Pertahankan versi: nama domain dan model kematangan COBIT 4.1 pada artikel harus dipahami dalam konteksnya. Jangan mencampurkan label 4.1 dengan terminologi versi lain atau model kapabilitas tanpa penjelasan.</p></section><section class="chapter" id="topik-09" data-chapter><h2>Studi kasus Erajaya</h2><p class="source">Sumber: <a href="reference/sumber.html#S09">S09</a>, artikel Wella dan Johan Setiawan (2015), terutama hlm. 1, 8–14.</p>
+<p>Objeknya aplikasi ERP “Erajaya Live Application Server” versi Juli–Desember 2012, mencakup penjualan, pembelian, keuangan, dan gudang. Data dikumpulkan melalui dokumentasi, observasi, wawancara, dan kuesioner kepada lima responden lintas fungsi.</p>
+<p>Artikel melaporkan 15 temuan. Kelompok utamanya:</p>
+<ul>
+<li>Fisik/lingkungan: kebutuhan perlindungan daya dan pencegahan kerusakan/kebakaran.</li>
+<li>Keberlangsungan: belum ada tim/rencana pemulihan bencana yang memadai.</li>
+<li>Aplikasi: masukan salah sulit diperbaiki, potensi kehilangan data pemrosesan, dan respons lambat.</li>
+<li>Akses: kelemahan pengaturan autentikasi dan percobaan login.</li>
+<li>Keterlacakan: tidak ada log aktivitas dan pengaturan akses database yang memadai.</li>
+<li>Proyek: pemantauan masih ad hoc.</li>
+</ul>
+<p>Contoh alur: tidak ada log aktivitas → perubahan sulit ditelusuri → rekomendasi pencatatan dan peninjauan aktivitas. Pola belajar yang utama adalah menghubungkan kondisi, risiko, dan kontrol yang diperlukan.</p>
+<p>Hasil yang dilaporkan penulis: PO level 4, AI level 5, DS level 4, ME level 4. Penggabungan nilai domain memakai modus. Itu metode penelitian artikel ini, bukan aturan bahwa semua penilaian COBIT wajib menggunakan modus.</p>
+<p>Baca kritis: nilai domain yang tinggi tetap dapat berdampingan dengan kelemahan kontrol spesifik. Artikel merupakan gambaran historis sistem/periode yang diteliti, bukan penilaian kondisi Erajaya saat ini. Rekomendasi teknis 2015 harus dibaca sesuai konteks; catatan password terbaru tersedia pada bagian 15.</p></section><section class="chapter" id="topik-10" data-chapter><h2>Studi kasus PUSRI</h2><p class="source">Sumber: <a href="reference/sumber.html#S10">S10</a>, Harris, Tarigan, dan Mawlan, terutama hlm. 3–7.</p>
+<p>Penelitian mengevaluasi manajemen risiko pada sistem informasi keamanan PT Pupuk Sriwidjaja menggunakan COBIT 4.1. Data primer berasal dari kuesioner dan wawancara; data sekunder dari laporan/dokumen. Penelitian juga mengelompokkan proses pendukung TI menjadi primer dan sekunder; ini perlu dibedakan dari jenis sumber data primer/sekunder.</p>
+<p>Angka menurut laporan penulis:</p>
+<ul>
+<li>Proses pendukung primer: PO 3,3; DS 2,5; ME 4,0.</li>
+<li>Proses pendukung sekunder: PO 3,0; AI 2,8; DS 3,0; ME 3,3.</li>
+<li>Kesimpulan artikel menyebut nilai keseluruhan 2,8.</li>
+</ul>
+<p>Tujuan pembacaannya: mengukur kondisi, membandingkan proses/domain, lalu merumuskan rekomendasi dan audit berkala. Hindari menyimpulkan “risiko sudah hilang” hanya karena prosedur tersedia atau skor dianggap baik.</p>
+<p>Catatan hitung: tabel ME primer mencantumkan 4,0; 3,8; 3,7. Rata-rata dari angka tampilan adalah sekitar 3,83, berbeda dari 4,0 yang dilaporkan. Tabel PO sekunder menampilkan enam proses namun ringkasan menulis lima. Jumlah nilai mentah 21+10+12+17+12+19 = 91 untuk 36 jawaban, sehingga rata-rata gabungan sekitar 2,53 bila bobotnya sama. Cara menghitung nilai keseluruhan 2,8 tidak dijelaskan cukup rinci untuk direplikasi dari ringkasan itu. Angka laporan dipertahankan sebagai hasil penulis, dengan ketidaksesuaian ini ditandai; jangan menganggapnya hasil hitung yang sudah diverifikasi.</p></section><section class="chapter" id="topik-11" data-chapter><h2>Laporan audit dan tindak lanjut</h2><p class="source">Sumber: <a href="reference/sumber.html#S08">S08</a> hlm. 6–9; <a href="reference/sumber.html#S07">S07</a> hlm. 6–7; <a href="reference/sumber.html#S09">S09</a> hlm. 4–5, 11–13.</p>
+<p>Laporan memuat identitas/objek, tujuan, lingkup dan periode, kriteria, pendekatan, temuan penting, simpulan, rekomendasi, serta batasan pemeriksaan bila ada. Pembaca dan pembatasan distribusi dapat diperlukan sesuai penugasan.</p>
+<p>Prinsip penulisan: jelas, faktual, objektif, relevan terhadap risiko, dan dapat ditindaklanjuti. Hindari temuan yang hanya berbunyi “keamanan kurang baik”. Sebutkan kontrol mana yang lemah dan bukti yang mendasarinya.</p>
+<p>Template latihan tambahan untuk menyusun satu temuan:</p>
+<ul>
+<li>Kondisi: apa yang ditemukan?</li>
+<li>Kriteria: apa yang seharusnya berlaku?</li>
+<li>Sebab: mengapa terjadi, bila didukung bukti?</li>
+<li>Dampak/risiko: apa konsekuensinya?</li>
+<li>Rekomendasi: tindakan yang menjawab sebab/risiko.</li>
+<li>Rencana tindak lanjut: penanggung jawab, target waktu, dan bukti penyelesaian.</li>
+</ul>
+<p>Contoh ilustratif, bukan temuan nyata dari folder:</p>
+<p>Kondisi: akun mantan staf masih aktif. Kriteria: kebijakan mengharuskan akses dihentikan saat hubungan kerja berakhir. Sebab yang perlu diuji: informasi keluarnya pegawai tidak terhubung ke proses TI. Risiko: akses tidak sah. Rekomendasi: nonaktifkan akun terkait dan integrasikan proses HR–TI. Tindak lanjut: manajemen menetapkan pemilik dan tenggat, auditor memeriksa bukti penonaktifan serta menguji sampel proses berikutnya.</p>
+<p>Janji “sudah diperbaiki” belum membuktikan perbaikan efektif. Tindak lanjut perlu melihat bukti pelaksanaan dan apakah kelemahannya benar-benar tertangani.</p></section><section class="chapter" id="topik-12" data-chapter><h2>Inti tugas 1, 2, dan 3</h2><p class="source">Sumber: <a href="reference/sumber.html#S13">S13</a>, <a href="reference/sumber.html#S14">S14</a>, <a href="reference/sumber.html#S15">S15</a>/<a href="reference/sumber.html#S16">S16</a>.</p>
+<p>Tugas 1:</p>
+<ul>
+<li>Jelaskan hubungan materialitas, risiko audit, dan kecukupan/ketepatan bukti dengan memperhatikan klarifikasi bagian 05.</li>
+<li>Kurangi risiko salah simpulan melalui perencanaan, penilaian risiko, pengujian, bukti memadai, kompetensi, dan independensi. Tindak lanjut terutama memastikan perbaikan ditangani; tidak menggantikan bukti yang diperlukan untuk simpulan audit awal.</li>
+<li>Integrasikan strategi ekonomi, organisasi, SI, dan SDM: kebutuhan pasar/biaya memengaruhi arah bisnis, arah bisnis menentukan kebutuhan sistem, dan sistem memerlukan kemampuan serta tanggung jawab manusia. Investasi aplikasi tanpa kesiapan SDM dapat gagal mendukung tujuan.</li>
+</ul>
+<p>Gambar strategi asli pada soal tidak ditemukan sebagai berkas terpisah; rangkuman mengikuti uraian dalam jawaban tugas.</p>
+<p>Tugas 2:</p>
+<ul>
+<li>Kuasai pembeda 10 acuan pada bagian 04: fokus, kelebihan, keterbatasan, dan jenis bukti yang diperlukan.</li>
+<li>ORCA dijabarkan dalam tugas sebagai Objectives, Risks, Controls, Audit. Gunakan urutannya untuk menjawab kasus: tujuan → risiko → kontrol → pengujian.</li>
+<li>Contoh: menjaga data pelanggan → akun lama disalahgunakan → penonaktifan akses/MFA/pembatasan peran → cocokkan data pegawai dan akun, lalu periksa penerapan serta log.</li>
+</ul>
+<p>Catatan terminologi: sumber lain juga memakai A = Assurance. Jangan menyajikan kepanjangan “Audit” dalam tugas sebagai satu-satunya penggunaan ORCA; ikuti istilah yang ditentukan dosen/soal dan jelaskan konteksnya.</p>
+<p>Tugas 3:</p>
+<p>Kendala dan penanganannya: (1) kompetensi kurang → pelatihan/tenaga ahli; (2) dokumentasi lemah → pengelolaan dokumen; (3) akses bukti terbatas → sepakati kebutuhan dan kewenangan; (4) auditee kurang bekerja sama → komunikasi tujuan; (5) waktu/anggaran terbatas → prioritas risiko; (6) kontrol tidak konsisten → uji penerapan; (7) data audit sensitif → pembatasan akses; (8) data tidak konsisten → validasi/rekonsiliasi; (9) sistem kompleks → pemetaan proses/alat bantu; (10) tindak lanjut lemah → pemilik dan tenggat; (11) lingkup tidak jelas → sepakati tujuan/batasan; (12) teknologi berubah → perbarui penilaian risiko.</p></section><section class="chapter" id="topik-13" data-chapter><h2>Empat opini laporan keuangan</h2><p class="source">Sumber: <a href="reference/sumber.html#S15">S15</a>/<a href="reference/sumber.html#S16">S16</a> hlm. 2–3; klarifikasi <a href="reference/sumber.html#E06">E06</a>.</p>
+<p>Bagian ini konteksnya audit laporan keuangan. Laporan audit SI tidak otomatis harus memakai empat label opini ini.</p>
+<ul>
+<li>Wajar tanpa pengecualian: bukti cukup dan tepat mendukung simpulan bahwa laporan disajikan wajar dalam semua hal material.</li>
+<li>Wajar dengan pengecualian: salah saji material tetapi tidak meluas, atau bukti tidak cukup dengan kemungkinan dampak material tetapi tidak meluas.</li>
+<li>Tidak wajar: bukti menunjukkan salah saji material dan meluas.</li>
+<li>Tidak menyatakan pendapat: auditor tidak memperoleh bukti cukup dan tepat, dengan kemungkinan dampak material dan meluas.</li>
+</ul>
+<p>Kunci pembeda: tidak wajar berarti auditor memiliki dasar menyimpulkan laporan salah secara material dan meluas; tidak menyatakan pendapat berarti dasar bukti tidak memadai untuk menyatakan opini. “Meluas” tidak hanya berarti jumlah kesalahan banyak, tetapi berkaitan dengan pengaruhnya terhadap laporan secara keseluruhan.</p></section><section class="chapter" id="topik-14" data-chapter><h2>Kualitas data dan data warehouse</h2><p class="source">Sumber: <a href="reference/sumber.html#S11">S11</a>, Pert. 8.pdf, hlm. 1–8. Berkas ini berbeda fokus dari rangkaian utama audit, tetapi tetap termasuk cakupan folder.</p>
+<p>Empat dimensi data: akurasi (sesuai keadaan sebenarnya), kelengkapan (data yang diperlukan tersedia), konsistensi (tidak bertentangan antarsistem), dan ketepatan waktu (tersedia/mutakhir sesuai kebutuhan).</p>
+<p>Alur pengelolaan: profilkan data untuk mengenali masalah, tetapkan tata kelola, bersihkan kesalahan/duplikasi, integrasikan sumber, dan pantau kualitas. Pengguna juga memerlukan pelatihan, bantuan, serta dorongan menggunakan data secara tepat.</p>
+<p>Integrasi: ETL = extract–transform–load, transformasi sebelum pemuatan; ELT = extract–load–transform, transformasi setelah pemuatan; virtualisasi mengakses data tanpa memusatkan seluruh salinannya; MDM mengelola keselarasan data master.</p>
+<p>Monitoring memakai metrik, dashboard, serta peringatan ketika kualitas menurun. Siklus data warehouse dalam slide: perencanaan, pemodelan, ETL, pengujian, penerapan, pemeliharaan. Tren yang disebut: cloud data warehouse, data lake, pemrosesan mendekati waktu nyata, AI/ML.</p>
+<p>Hubungan dengan audit: data yang salah dapat menghasilkan laporan dan keputusan yang salah. Auditor dapat menelusuri sumber, validasi input, rekonsiliasi, dan pengendalian perubahan data.</p>
+<p>Angka target pada slide (misalnya akurasi &gt;95%, konsistensi 99%, atau pembaruan 24 jam) tidak otomatis menjadi standar universal. Kriteria harus sesuai kebutuhan data/proses. Statistik kerugian pada slide tidak disertai sumber primer yang dapat ditelusuri di berkas, sehingga tidak dijadikan fakta umum dalam rangkuman.</p></section><section class="chapter" id="topik-15" data-chapter><h2>Catatan pembacaan kritis</h2><ol>
+<li>Persentase keberhasilan dalam beberapa slide tidak memiliki rujukan yang cukup rinci. Contoh rumah sakit muncul dengan persentase berbeda pada <a href="reference/sumber.html#S02">S02</a> dan <a href="reference/sumber.html#S08">S08</a>. Pelajari hubungan masalah–kontrol–dampak, bukan menghafal angka seolah-olah sudah terverifikasi.</li>
+<li>NIST SP 800-30 adalah panduan penilaian risiko; penyebutan sebagai standar audit keamanan menyeluruh di <a href="reference/sumber.html#S03">S03</a> terlalu luas. Lihat <a href="reference/sumber.html#E02">E02</a>.</li>
+<li>Penomoran ITAF bergantung edisi. Materi menyebut 1201 Risk Assessment; daftar resmi ISACA untuk edisi keempat menyebut 1201 Risk Assessment in Planning. Hindari mencampur nomor/judul lintas edisi. Lihat <a href="reference/sumber.html#E03">E03</a>.</li>
+<li>Artikel Erajaya 2015 merekomendasikan penggantian password berkala dan aturan campuran karakter. NIST SP 800-63B-4 justru melarang kewajiban rotasi rutin dan aturan komposisi tersebut untuk verifier yang mengikuti panduan ini; penggantian diwajibkan bila ada bukti kompromi. Itu klarifikasi praktik, bukan perubahan isi artikel. Lihat <a href="reference/sumber.html#E07">E07</a>.</li>
+<li>Nilai maturity PUSRI memiliki ketidaksesuaian ringkasan hitung seperti dijelaskan pada bagian 10. Nilai artikel tidak dipromosikan menjadi ukuran keamanan yang pasti.</li>
+<li>Pembedaan empat opini laporan keuangan dari kesimpulan audit SI dipertahankan sesuai catatan dalam Tugas 3.</li>
+</ol></section></div></div></main>
+<footer class="site-footer"><p>Bahan belajar dari materi kuliah semester 7. Penjelasan tambahan dan batas sumber ditandai di setiap topik.</p><a href="https://github.com/rawr-coolyeah/manajemen-risiko-audit">Lihat repositori dan sumber situs</a></footer></body></html>
